@@ -1,0 +1,83 @@
+/* BODY */
+body {
+    background: linear-gradient(#B4121B, #000000);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* NAVBAR */
+.container-fluid {
+    background-color: blueviolet;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* NAV ITEMS */
+.navbar-nav {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-left: 0 !important;
+    margin-right: auto;
+
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+/* NAV LINKS */
+.container-fluid .nav-link {
+    color: white;
+    background-color: #01257D;
+    border-radius: 20px;
+    padding: 8px 15px;
+    transition: all 0.3s ease;
+}
+
+.container-fluid .nav-link:hover {
+    background-color: #EF3B33;
+    color: white;
+}
+
+/* CARDS */
+.card {
+    border: 2px solid black;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card-body {
+    background: linear-gradient(#8E0D3C, #1D1842, #EF3B33, #FDA1A2);
+}
+
+/* CARD HOVER */
+.card:hover {
+    background-color: #9f8bef;
+    transform: scale(1.05);
+}
+
+/* TEXT */
+.card-title {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.card-text {
+    color: whitesmoke;
+}
+.park {
+    background-color: #4126ac;
+    border: 2px solid black;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    padding: 20px;
+    margin-top: 20px;
+}
